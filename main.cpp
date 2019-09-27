@@ -1,4 +1,4 @@
-#include<iostream>       // for obvious reasons
+﻿#include<iostream>       // for obvious reasons
 #include<conio.h>        // for getch()
 #include<windows.h>      // for color changing and Font size
 #include<io.h>           // for _setmode function
@@ -7,9 +7,7 @@
 #include<cstdlib>        // To get the random number generator function
 #include<stdlib.h>       // for srand
 
-
 // NOT using namespace std;
-
 //COLORS LIST for font color
 //1:  Blue
 //2:  Green
@@ -35,7 +33,7 @@
 // u2666 Diamond     ♦
 //NOTE must write L in front of "text" for this to function. like this cout << (L"text");
 
-
+// adding comments
 // this creates a function Color(); that i can use to change font and backround color of text
 void Color(WORD color)
 {
